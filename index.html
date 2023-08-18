@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Todo app</title>
+  </head>
+  <body id = "body" >
+    <div class="header">
+      <div class="header-info">
+        <div class="app-title">Todo</div>
+        <div class="theme-toggle"><img src="./images/icon-sun.svg" alt="" srcset=""></div>
+      </div>
+      <div class="content-form">
+        <input type="radio" class = "cus-radio">
+        <input type="text" class = "taskinp">
+      </div>
+    </div>
+    <div class="task-container">
+      <!-- <div class="task">
+        <input type="radio" class = "cus-radio">
+        <div class="task-title">Hello world</div>
+        <div class="cancel"><img src="./images/icon-cross.svg" alt="" srcset=""></div>
+      </div> -->
+      <div class="actions-holder">
+        <div class="counter">0 items left</div>
+        <div class="tabs-switcher">
+          <div class="tab active">All</div>
+          <div class="tab">Active</div>
+          <div class="tab">Completed</div>
+        </div>
+        <div class="clear-container">
+          <div class="clear-com">Clear Completed</div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- Add dynamic number items left -->
+
+    <!-- All
+  Active 
+  Completed
+
+  Clear Completed
+
+  Drag and drop to reorder list -->
+  <script src="main.js"></script>
+  </body>
+</html>
